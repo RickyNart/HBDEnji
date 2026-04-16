@@ -41,7 +41,7 @@
     #hsatu{transition: all .3s ease}
     #judulakhir{z-index:100;font-size:24px;font-family:var(--gaya-font3);transition:all .5s ease}
     #teksnimasi, #kalimatakhir, #palingakhir{z-index:100;margin-right:auto;margin-left:auto;font-size:15px;font-family:var(--gaya-font2);}
-    #teksnimasi{text-align:left;margin-left:70px;margin-right:70px; }
+    #teksnimasi{   text-align: left; margin-left: 20px; margin-right: 20px; max-width: 600px;}
     .tipeA{font-family:var(--gaya-font);}
     
     svg{vertical-align: middle;width: 22px;height: 22px;fill: #fff}
@@ -71,10 +71,10 @@
 
       /* KHUSUS BUAT SCROLL DI SECTION 3 */
 .scroll-box {
-  max-height: 60vh;
+  max-height: 40vh;
   overflow-y: auto;
-  padding: 20px;
-  margin: 0 50px;
+  padding: 15px;
+  margin: 0 30px;
   background: transparent;
   border-radius: 12px;
   position: relative;
